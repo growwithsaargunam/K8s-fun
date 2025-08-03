@@ -55,6 +55,7 @@ You should see:
 To delete all resources:
 
 ```sh
+kubectl delete service growwithsaargunam-pod
 kubectl delete pod growwithsaargunam-pod
 kubectl delete configmap web-content
 ```
